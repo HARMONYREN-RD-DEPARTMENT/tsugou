@@ -1,0 +1,31 @@
+{
+  "name": "tsugou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "module",
+  "bin": {
+    "tsu": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARMONYREN-RD-DEPARTMENT/tsugou.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HARMONYREN-RD-DEPARTMENT/tsugou/issues"
+  },
+  "homepage": "https://github.com/HARMONYREN-RD-DEPARTMENT/tsugou#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "harmony-crypto": "github:HARMONYREN-RD-DEPARTMENT/harmony-crypto"
+  }
+}
